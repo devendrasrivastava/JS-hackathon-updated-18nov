@@ -4,5 +4,9 @@
 #submitbutton{
     background-color: #42145F !important;
     border-color: #42145F !important;
+}
+#resetbutton{
+    background-color: #42145F !important;
+    border-color: #42145F !important;
     margin-bottom: 5vh;
 }
