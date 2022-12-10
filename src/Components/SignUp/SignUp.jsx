@@ -42,6 +42,7 @@ export default function SignUp() {
                 .min(3, "First name is too short")
                 .max(20, "First name is too long")
                 .required("Firstname cannot be left blank"),
+                
             lastname: yup.string()
                 .min(3, "Last name is too short")
                 .max(20, "Last name is too long")
@@ -68,8 +69,7 @@ export default function SignUp() {
         })
     })
     return (
-        <>
-            <Header />
+      
             <div className="container">
 
                 <div className="row">
@@ -130,6 +130,6 @@ export default function SignUp() {
                     </div>
                 </div>
             </div>
-        </>
+        
     )
 }

@@ -46,10 +46,10 @@ export default function LoginPage() {
 
     return (
         <div>
-            <div className="container user-login-form mx-auto">
+            <div className="container">
 
                 <div className="row">
-                    <div className="col-12 col-sm-6">
+                    <div className="col-12 col-sm-6 mx-auto user-login-form">
                         <img src="./assets/nw logo.png" id="loginNwLogo" alt="" className="img-fluid" />
                         <h1>Login Here</h1>
 
